@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /*background-image: url('deep_field.jpg'); /* Replace with your image path */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bf/Webb%27s_First_Deep_Field.jpg'); /* Replace with your image path */
+    background-size: cover; /* Makes the background image cover the entire area */
+    background-position: center; /* Centers the image */
+    color: white; /* Change text color for visibility */
+}
+
+header {
+    /*background: rgba(76, 175, 80, 0.7); /* Semi-transparent background for header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for main content */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    /*background: rgba(244, 244, 244, 0.8); /* Semi-transparent footer */
+}
+
